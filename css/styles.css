@@ -1,0 +1,13 @@
+body{
+  background-color: #FBFFE2;
+}
+hr{
+  border-style:dotted none none none;
+  width: 4%;
+  border-width: medium;
+  border-color: #FFEBCC;
+}
+h1,h2,h3{  color: #FFAFAF;}
+p{
+  color:#FF9999;
+}
