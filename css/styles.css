@@ -1,13 +1,30 @@
 body{
-  background-color: #FBFFE2;
+  background-color: #decfb8;
+  color: #072227;
+  font-family: monospace;
 }
 hr{
-  border-style:dotted none none none;
-  width: 4%;
-  border-width: medium;
-  border-color: #FFEBCC;
+  border: none;
+  border-top: 3px double #333;
+  color: #333;
+  height: 5px;
 }
-h1,h2,h3{  color: #FFAFAF;}
-p{
-  color:#FF9999;
+.animated-rainbow{
+  animation: rainbow;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes rainbow {
+  0%{
+    color: red;
+  }
+  25%{
+    color: blue;
+  }
+  50%{
+    color: green;
+  }
+  100%{
+    color: black;
+  }
 }
